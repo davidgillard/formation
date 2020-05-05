@@ -35,6 +35,10 @@ print("#########################################################")
 for les_films in liste_films:
     if isinstance(les_films, list):
         for liste_imbrique in les_films:
-            print(liste_imbrique)
+            if isinstance(liste_imbrique, list):
+                for contenu in liste_imbrique:
+                    print(contenu)
+            else:
+                print(liste_imbrique)
     else:
         print(les_films)
