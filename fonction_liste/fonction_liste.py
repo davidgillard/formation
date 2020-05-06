@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 #-*- encoding utf8 -*-
 """ Il s'agit d'une fonction qui parcours une liste 
-qui contient plusieurs listes imbriquées"""
+qui contient plusieurs listes imbriquées et affiche l'ensemble des éléments de cette liste à l'écran"""
 
-liste_films = ["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91, ["Graham Chapman",["Michael Palin", "John Cleese", "Terry Gilliam", "Eric Idle", "Terry Jones"]]]
+#liste_films = ["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91, ["Graham Chapman",["Michael Palin", "John Cleese", "Terry Gilliam", "Eric Idle", "Terry Jones"]]]
 
 
 """cette fonction prends en argument 'ma_liste' qui 
@@ -18,4 +18,4 @@ def print_lol(ma_liste):
         else:
             print(chaque_film)
 
-print_lol(liste_films)
+#print_lol(liste_films)
