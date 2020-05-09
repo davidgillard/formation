@@ -3,8 +3,9 @@
 # fichier : conversion_degres_C_en_F.py
 # auteur : David GILLARD 
 
-"""Instruction: Saisir une température en degrés Celsius ($T_C$), puis la convertir en degré Fahrenheit ($T_F$).
-Faire également la conversion inverse.
+"""Instruction: Saisir une température en degrés Celsius ( 𝑇𝐶 ), puis la convertir en degré Fahrenheit ( 𝑇𝐹 ). Faire également la conversion inverse.
+On donne :  𝑇𝐹=1,8×𝑇𝐶+32 
+Afficher une valeur approchée, avec deux décimales, de 20 °F exprimés en °C.
 
 infomation utile : FORMULE POUR CONVERTIR LES DEGRÉS CELSIUS ET FAHRENHEIT
 Convertir les Celsius en Fahrenheit en appliquant la formule suivante: Celsius * 9/5 + 32.
