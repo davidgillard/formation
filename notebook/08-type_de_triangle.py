@@ -29,10 +29,10 @@ if a < (b+c) and b < (a+c) and c < (a+b):  # condition pour identifier un triang
     print ("L'aire de ce triangle est: {:.2f}".format(aire))
     if a*a + b*b == c*c or b*b + c*c == a*a or a*a + c*c == b*b: # à partir du théoréme de pythagore
         print("le triangle est rectangle")
-    elif a == b and b == c: # si a == b == c alors équlatéral
+    elif a == b and b == c: # si a == b == c # alors équlatéral
         print("le triangle est équilatéral")
     elif a == b or a == c or b == c: # si deux cotés égaux alors isocéle
         print("le triangle est isocele")  
 else:
-    print("au vue des valeurs saisie il ne s'agit pas d'un triangle")
+    print("Les longueurs saisies ne forment pas un triangle !")
     exit()
